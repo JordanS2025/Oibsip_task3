@@ -2,16 +2,16 @@
 
 body {
     font-family: "Kode Mono", monospace;
-    background-color: purple;
+    background-image: url("../Images/thermometer.jpg");
 }
 h1
 {
-    color: grey;
+    color: red;
 }
 
 form
 {
-    background-color: whitesmoke;
+    background-color: tan;
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
@@ -51,7 +51,7 @@ button
 
 button:hover
 {
-    background-color: grey;
+    background-color: red;
 }
 
 #Results
