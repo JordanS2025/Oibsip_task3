@@ -1,111 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Madimi+One&display=swap');
-  
-body 
-{
-  margin: 0;
-  padding: 0;
-  height: 100;
-  box-sizing: border-box;
-  font-family: "Kode Mono", monospace;
+
+body {
+    font-family: "Kode Mono", monospace;
+    background-color: purple;
 }
-section
+h1
 {
-    min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60),rgba(0, 0, 0, 0.60)), url("../Images/The\ Promise\ Silkscreen\ Print\ by\ Kaws-\ Brian\ Donnelly.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    color: grey;
 }
-.container
+
+form
 {
-    width: 85%;
-    margin: auto;
+    background-color: whitesmoke;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black ;
+
 }
-nav 
-{
-    height: 80px;
-}
-nav h1
-{
-    float: right;
-    line-height: 80px;
-    font-size: 35px;
-    font-size: inline;
-    color: purple;
-}
-nav ul
-{
-    float: left;
-    line-height: 80px;
-}
-nav ul li
-{
-    display: inline-block;
-    list-style-type: none;
-    padding: 0px 5px;
-}
-nav ul li a
-{
-    color: royalblue;
-    text-decoration: dashed;
-    text-transform: capitalize;
-    border-radius: 5px;
-    padding: 7px 8px;
-}
-nav ul li a:hover
-{
-    background-color: rgb(135, 13, 159);
-    transition: 0.5s ease;
-}
-nav ul li .active 
-{
-    /* color the buttons 
-    background-color: rgb(135, 13, 159);*/
-}
-.article
+
+#textbox
 {
     width: 50%;
-    margin: auto;
     text-align: center;
-    transform: translateY(10vh);
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 15px;
+
 }
-.article h1
+
+label
 {
-    font: size 36px;
-    color: rgb(255, 255,);
-    letter-spacing: 2px;
-    font-weight: 800;
-    margin-bottom: 25px;
+    font-size: 12px;
+    font-weight: bold;
 }
-.article p
+
+button
 {
-    font-size: 18px;
-    color: white;
-    line: height 1.5;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 2em;
+    border: none;
+    padding: auto;
+    border-radius: 5px;
 }
-    img 
+
+button:hover
 {
-    width: 100px;
-    border-radius: 50px;
-    float: left;
-    margin-right: 10px;
-    object-fit: cover;
-  }
-/*
-download button
-.article .btn 
-{
-    color: 
-    padding: 12px 25px;
-    letter-spacing:1.5px
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: 
+    background-color: grey;
 }
- .article .btn:hover
- {
-    background-color:
-    transition: 0.5s ease;
- }  
- */
+
+#Results
+{
+    font-size: 14px;
+    font-weight: bold;
+}

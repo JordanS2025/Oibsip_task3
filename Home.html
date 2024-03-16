@@ -7,5 +7,33 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
   </head>
-  <body></body>
+  <body>
+    
+    <form >
+      <h1> Temperature Converter</h1>
+      <input type="number" id = "textBox" value="0"><br>
+      <!-- To F -->
+      <input type="radio" id="Fahrenheit" name = "units">
+      <label  for="Fahrenheit" > Celsius to Fahrenheit</label> <br>
+       <!-- To C -->
+      <input type="radio" id="Celsius" name = "units">
+      <label  for="Celsius" > Fahrenheit to Celsius </label> <br>
+       <!-- C To K -->
+      <input type="radio" id="Kelvin" name = "units">
+      <label  for="Kelvin" > Celsius to Kelvin</label> <br>
+       <!-- F To K -->
+      <input type="radio" id="Kelvin2" name = "units">
+      <label  for="Kelvin2" > Fahrenheit to Kelvin</label> <br>
+       <!-- K To F -->
+      <input type="radio" id="Fahrenheit2" name = "units">
+      <label  for="Fahrenheit2" > Kelvin to Fahrenheit</label> <br>
+       <!-- C To K -->
+      <input type="radio" id="Celsius2" name = "units">
+      <label  for="Celsius2" > Kelvin to Celsius</label> <br>
+
+      <button type = "button" onclick = "convert()" >Convert </button>
+      <p id="Result">  Select the Unit </p>
+    </form>
+    <script src ="index.js"></script> 
+  </body>
 </html>
