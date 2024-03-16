@@ -25,7 +25,7 @@ function convert()
 
         temperature = Number(textBox.value);
         temperature = (temperature - 273.15) * 9/5  + 32;
-        Result.textContent=  temperature + "K";
+        Result.textContent=  temperature + "F";
     }  
     else if (Celsius.checked)
     {
